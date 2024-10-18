@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/a576612222.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bg-clr"> 
+    <header>
+        <div class="container">
+            <a id="logo" href="index.html"><img src="images/logosmaller.svg" alt="silicon logotype"></a>
+            <a id="logolight" href="index.html"><img src="images/logo-light.svg" alt="silicon logotype"></a>
+
+                <nav id="main-menu" class="navbar">
+                    <a class="nav-link whitetext" href="#">Features</a>
+                    <a class="nav-link whitetext" href="contact.html">Contact</a>
+                </nav>
+                <div class="btn-toggle-switch">
+                    <span class="label">Dark Mode</span>
+                    <label for="darkmode-switch" class="toggle-switch">
+                        <input id="darkmode-switch" type="checkbox">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+
+                <a id="auth-signin" href="#" class="btn-primary">
+                    <i class="fa-regular fa-user"></i>
+                    <span>Sign in / up</span>
+                </a>
+            </div>
+    </header>    
+
+    <div class="container"> 
+        <nav class="pagenav">
+            <a class="homenav text-S" href="index.html"><img src="images/bx-home-alt.svg" alt="">Homepage</a>
+            <img src="images/bx-chevrons-right.svg" alt="">
+            <a class="text-S active" href="contact.html">Contact</a>
+        </nav>
+    
+        <div class="contactpage"> 
+            <div> 
+                <h1>Contact Us</h1>
+                <div class="contactus">
+                    <button class="btn-circle"><img src="images/bx-envelope.svg" alt=""></button>
+                    <div>
+                        <h3>Email us</h3>
+                        <p class="text-S">Please feel free to drop us a line. We will respond as soon as possible</p>
+                        <a href="#">Leave a message<img src="images/arrowrightprimclr.svg" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="contactus">
+                    <button class="btn-circle"><img src="images/add-group.svg" alt=""></button>
+                    <div>
+                        <h3>Careers</h3>
+                        <p class="text-S">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, nesciunt accusamus?</p>
+                        <a href="#">Send an application<img src="images/arrowrightprimclr.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="consult-card">
+                <h2>Get Online Consultation</h2>
+
+                <form class="consultation" id="consult-form" novalidate>
+                    <div class="input-group"> 
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullName" required>
+                        <p class="invalid-input">Error Msg</p>
+                    </div>       
+
+                    <div class="input-group"> 
+                        <label for="appointment-email">Email address</label>
+                        <input type="email" id="appointment-email" required>
+                        <p class="invalid-input">Error Msg</p>
+
+                    </div>
+
+                    <div class="input-group"> 
+                        <label for="">Specialist</label>
+                        <input id="specialist" required>
+                        <p class="invalid-input">Error Msg</p>
+                    </div>
+
+                    <button class="btn-primary">Make an appointment</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section class="container findus flex">
+    <div class="map">
+        <img src="images/moneypayment.svg" alt="">
+    </div>
+
+    <div>
+        <div class="location gap">
+            <h3>Medical center 1</h3>
+            <div class="flex"> 
+                <img class="flex-icon" src="images/bx-map.svg" alt="">
+                <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
+            </div>
+            <div class="flex"> 
+                <img src="images/bx-phone-call.svg" alt="">
+                <p>(406) 555-0120</p>
+            </div>
+
+            <div class="flex"> 
+                <img id="align-fs" src="images/bx-time-five.svg" alt="">
+                <div class="open-hours"> 
+                    <h5>Mon - Fri:</h5> <p>9:00 am - 22:00 am</p> </br>
+                    <h5>Sat - Sun:</h5> <p>9:00 am - 20:00 am</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="location gap">
+            <h3>Medical center 2</h3>
+            <div class="flex"> 
+                <img class="flex-icon" src="images/bx-map.svg" alt="">
+                <p>2464 Royal Ln. Mesa,New Jersey 45463</p>
+            </div>
+            <div class="flex"> 
+                <img src="images/bx-phone-call.svg" alt="">
+                <p>(406) 544-0123</p>
+            </div>
+
+            <div class="flex"> 
+                <img id="align-fs" src="images/bx-time-five.svg" alt="">
+                <div class="open-hours"> 
+                    <h5>Mon - Fri:</h5> <p>9:00 am - 22:00 am</p> </br>
+                    <h5>Sat - Sun:</h5> <p>9:00 am - 20:00 am</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="socials">
+            <a href="https://facebook.com"> 
+                <img class="icon" src="images/bxl-facebook-square.svg" alt="">
+            </a>
+            <a href="https://twitter.com"> 
+                <img class="icon" src="images/bxl-twitter.svg" alt="">
+            </a>
+            <a href="https://instagram.com"> 
+                <img class="icon" src="images/bxl-instagram-alt.svg" alt="">
+            </a>
+            <a href="https://youtube.com"> 
+                <img class="icon" src="images/bxl-youtube.svg" alt="">
+            </a>
+
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p class="text-S">@ 2024 Silicon. All rights reserved. Credit MadrasThemes</p>
+    </div>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
