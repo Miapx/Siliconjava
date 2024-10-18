@@ -201,21 +201,10 @@ a:hover {
 
  /* googleplay / appstore knapparna */
 
- .btn-download-app {
-    background-color: var(--color-grey900);
-    color: var(--color-white);
-    border-radius: 8px;
-    padding: 12px 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-}
-
-.btn-download-app:hover {
-    background-color: var(--color-grey600);
-    color: var(--color-white);
-    text-decoration: none;
+.btn-download-app, .btn-download-app-light {
+    img:hover {
+        filter: brightness(50%)
+    }
 }
 
 .btn-download-app-light {
